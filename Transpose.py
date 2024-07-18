@@ -7,15 +7,10 @@ class Solution:
         
         for i in range(len(matrix)):
             
-          
-
             for j in range(len(matrix[0])):
                 
                 arr[j][i]=matrix[i][j]
-                
-
-           
-        
+                  
         return arr
 
 Sol=Solution()    
